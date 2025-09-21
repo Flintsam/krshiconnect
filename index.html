@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KrishiConnect - AI Advisory</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Navbar -->                                                                  
+  <nav class="navbar">
+    <div class="logo">🌾 KrishiConnect</div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="assistant.html">AI Assistant</a></li>
+      <li><a href="SMS.html">SMS-Alert</a></li>
+      <li><a href="check.html">Check-up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Bulletin News Strip -->
+  <div class="bulletin-container">
+    <div class="bulletin" id="bulletin"></div>
+  </div>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>"Har Kisan Se Direct Connection"</h1>
+    <p>AI-powered, multilingual, offline-first crop advisory app for every farmer</p>
+    <button id="tipBtn">🌱 Get Random Farming Tip</button>
+    <div id="tipPopup"></div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="content-box">
+    <h2>About the App</h2>
+    <p>
+      A lightweight AI-powered crop advisory app designed for small and marginal farmers. 
+      Personalized, predictive, and actionable guidance for better farming.
+    </p>
+  </section>
+
+  <!-- AI Advisory Demo -->
+  <section id="demo" class="content-box">
+    <h2>Try AI Advisory Demo</h2>
+    <label for="crop">Enter Your Crop:</label>
+    <input type="text" id="crop" placeholder="e.g. Wheat, Rice, Tomato">
+    <label for="symptom">Enter Symptom:</label>
+    <input type="text" id="symptom" placeholder="e.g. yellow leaves, pest attack">
+    <button id="getAdvisory">🔍 Get Advisory</button>
+    <div id="advisoryResult"></div>
+  </section>
+
+  <!-- Problems & Solutions -->
+  <section id="problems" class="content-box">
+    <h2>Problems & Solutions</h2>
+    <div class="grid">
+      <div class="card">🐛 Pest/Disease → AI image-based detection + solutions</div>
+      <div class="card">📢 Low Digital Literacy → Voice-first + multilingual support</div>
+      <div class="card">📶 Low Connectivity → Offline mode + SMS fallback</div>
+      <div class="card">💧 Water Management → Smart water-need analysis</div>
+      <div class="card">💰 High Cultivation Cost → Crop-cost estimation & planning</div>
+      <div class="card">🤝 Trust Barrier → Community champions & success stories</div>
+      <div class="card">🌱 Soil Health → AI soil testing & nutrient recommendations</div>
+      <div class="card">📊 Market Access → Price prediction & direct market linkage</div>
+    </div>
+  </section>
+
+  <!-- Impact & Benefits -->
+  <section id="benefits" class="content-box">
+    <h2>Impact & Benefits</h2>
+    <div class="grid">
+      <div class="card">✅ Boost Productivity</div>
+      <div class="card">🧩 Reduce Input Costs</div>
+      <div class="card">🌍 Sustainability</div>
+      <div class="card">📈 Better Returns</div>
+      <div class="card">🔔 Local Language Support</div>
+      <div class="card">🤝 Empower Farmers</div>
+      <div class="card">📚 Knowledge Sharing & Training</div>
+      <div class="card">🛰️ Smart Farming with IoT & AI</div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    © 2025 KrishiConnect | SIH Demo
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KrishiConnect - Check-up</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Spinner container for Work in Progress */
+    .wip-container {
+      text-align: center;
+      padding: 50px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      max-width: 600px;
+      margin: 40px auto;
+    }
+
+    .wip-title {
+      font-size: 2em;
+      color: #333;
+    }
+
+    .wip-message {
+      font-size: 1.1em;
+      color: #555;
+      margin-top: 10px;
+    }
+
+    .spinner {
+      margin: 20px auto 0;
+      border: 4px solid #f3f3f3;
+      border-top: 4px solid #1f7a42;
+      border-radius: 50%;
+      width: 50px;
+      height: 50px;
+      animation: spin 2s linear infinite;
+    }
+
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar">
+    <div class="logo">🌾 KrishiConnect</div>
+    <ul>
+      <li><a href="about.html">About</a></li>
+      <li><a href="#demo">Demo</a></li>
+      <li><a href="assistant.html">AI Assistant</a></li>
+      <li><a href="SMS.html">SMS-Alert</a></li>
+      <li><a href="check.html" class="active">Check-up</a></li>
+    </ul>
+  </nav>
+
+  <!-- Work in Progress Container -->
+  <div class="wip-container">
+    <div class="wip-title">Work in Progress</div>
+    <div class="wip-message">We're currently working on this page. Please check back soon!</div>
+    <div class="spinner"></div>
+  </div>
+
+</body>
+</html>
+
+
+

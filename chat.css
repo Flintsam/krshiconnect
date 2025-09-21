@@ -1,0 +1,183 @@
+/* General */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: #f5fff5;
+  color: #124d25;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Navbar */
+.navbar {
+  background: #1f7a42;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px 40px;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 0;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none; /* remove underline */
+  font-weight: bold;
+}
+
+.navbar ul li a:hover {
+  text-decoration: underline; /* underline on hover */
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 40px 20px;
+  background: linear-gradient(to right, #b6f0c3, #d9f9df);
+  border-radius: 8px;
+  margin: 20px;
+}
+
+.hero h1 {
+  color: #145a32;
+}
+
+.hero p {
+  color: #124d25;
+  margin-top: 10px;
+}
+
+/* Chat Container */
+#chatMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+
+#chatContainer {
+  width: 500px;
+  max-width: 95%;
+  background: #fff;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+/* Messages */
+#messages {
+  flex: 1;
+  padding: 15px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.message {
+  margin: 8px 0;
+  padding: 8px 12px;
+  border-radius: 12px;
+  max-width: 80%;
+  word-wrap: break-word;
+}
+
+.user {
+  background: #a5d6a7;
+  color: #1b5e20;
+  align-self: flex-end;
+  text-align: right;
+}
+
+.bot {
+  background: #e8f5e9;
+  color: #2e7d32;
+  align-self: flex-start;
+  text-align: left;
+}
+
+/* Quick recommendations */
+#quickQs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+#quickQs button {
+  background: #a5d6a7;
+  border: none;
+  padding: 6px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+#quickQs button:hover {
+  background: #81c784;
+}
+
+/* Input container */
+#inputContainer {
+  display: flex;
+  gap: 5px;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+
+#inputContainer input[type=text] {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+#inputContainer button {
+  background: #1f7a42;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+#inputContainer button:hover {
+  background: #145a32;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background: #145a32;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 14px;
+  width: 100%;
+  border-top: 2px solid #1f7a42;
+  margin-top: auto;
+}
+
+
+
+
+
+
+
+
+
+

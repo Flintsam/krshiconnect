@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>KrishiConnect Assistant</title>
+<link rel="stylesheet" href="chat.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar">
+  <div class="logo">🌾 KrishiConnect</div>
+  <ul>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="#demo">Demo</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="SMS.html">SMS-Alert</a></li>
+    <li><a href="check.html" class="active">Check-up</a></li>
+  </ul>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>KrishiConnect AI Assistant</h1>
+  <p>“Har Kisan Se Direct Connection”</p>
+</section>
+
+<!-- Chat Container -->
+<main id="chatMain">
+  <div id="chatContainer">
+    <div id="messages"></div>
+
+    <!-- Quick recommendation buttons -->
+    <div id="quickQs">
+      <button data-q="soil ph">Soil pH</button>
+      <button data-q="irrigation">Irrigation</button>
+      <button data-q="problem">Crop Problems</button>
+      <button data-q="help">Tips</button>
+      <button data-q="weather">Weather</button>
+    </div>
+
+    <!-- Input container -->
+    <div id="inputContainer">
+      <input type="text" id="userInput" placeholder="Ask about soil, crops, irrigation..." />
+      <button id="voiceBtn">🎤</button>
+      <button id="cameraBtn">📷</button>
+      <input type="file" id="imageInput" accept="image/*" style="display:none" />
+      <button id="sendBtn">Send</button>
+      <button id="clearBtn">Clear Chat</button>
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer>
+  <p>© 2025 KrishiConnect | All Rights Reserved</p>
+</footer>
+
+<script src="chat.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
